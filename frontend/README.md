@@ -19,7 +19,8 @@
 
 ### How to run app:
 - Open browser to `http://localhost:3000/`
-
+- Run npm run dev in terminal for backend 
+-Run npm start for front end
 
 
 
