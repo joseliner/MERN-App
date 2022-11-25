@@ -22,6 +22,8 @@
 - Run npm run dev in terminal for backend 
 -Run npm start for front end
 
+Deployed with Cloudflare.
+
 
 
 
