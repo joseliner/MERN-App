@@ -30,5 +30,7 @@ _How to run app :_
 - Run npm run dev in terminal for backend
 - Open browser at `http://localhost:4000/api/workouts`
 
+To view server API route, go to `https://myworkout.onrender.com/api/workouts`
+
 Database powered by:
 `https://cloud.mongodb.com/`
