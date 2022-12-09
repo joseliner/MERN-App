@@ -18,12 +18,12 @@ app.use((req, res, next) => {
 })
 
 // Pulling in React Code to serve thru the backend
-// const publicDirectory = path.join(__dirname, "../frontend/public");
-// app.use(express.static(publicDirectory));
+const publicDirectory = path.join(__dirname, "../frontend/public");
+app.use(express.static(publicDirectory));
 
-// app.get("*", (req, res) => {
-//   res.sendFile(publicDirectory);
-// });
+app.get("*", (req, res) => {
+  res.sendFile(publicDirectory);
+});
 
 // Routes
 app.use('/api/workouts', workoutRoutes)
